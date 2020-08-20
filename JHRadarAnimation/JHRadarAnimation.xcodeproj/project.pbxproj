@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18640A0224EE6F76002A1055 /* JHRadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18640A0124EE6F76002A1055 /* JHRadarAnimation.m */; };
+		18640A0624EE6F96002A1055 /* UIView+JHRadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18640A0524EE6F96002A1055 /* UIView+JHRadarAnimation.m */; };
+		18C8871224ED539C0048A115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8871124ED539C0048A115 /* AppDelegate.m */; };
+		18C8871824ED539C0048A115 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8871724ED539C0048A115 /* ViewController.m */; };
+		18C8871B24ED539C0048A115 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C8871924ED539C0048A115 /* Main.storyboard */; };
+		18C8871D24ED53A00048A115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C8871C24ED53A00048A115 /* Assets.xcassets */; };
+		18C8872024ED53A00048A115 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C8871E24ED53A00048A115 /* LaunchScreen.storyboard */; };
+		18C8872324ED53A00048A115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8872224ED53A00048A115 /* main.m */; };
+		18C8872D24ED53A10048A115 /* JHRadarAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C8872C24ED53A10048A115 /* JHRadarAnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18C8872924ED53A10048A115 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18C8870524ED539C0048A115 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18C8870C24ED539C0048A115;
+			remoteInfo = JHRadarAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18640A0024EE6F76002A1055 /* JHRadarAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHRadarAnimation.h; sourceTree = "<group>"; };
+		18640A0124EE6F76002A1055 /* JHRadarAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHRadarAnimation.m; sourceTree = "<group>"; };
+		18640A0424EE6F96002A1055 /* UIView+JHRadarAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHRadarAnimation.h"; sourceTree = "<group>"; };
+		18640A0524EE6F96002A1055 /* UIView+JHRadarAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHRadarAnimation.m"; sourceTree = "<group>"; };
+		18C8870D24ED539C0048A115 /* JHRadarAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JHRadarAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C8871024ED539C0048A115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18C8871124ED539C0048A115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18C8871624ED539C0048A115 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18C8871724ED539C0048A115 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18C8871A24ED539C0048A115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C8871C24ED53A00048A115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C8871F24ED53A00048A115 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C8872124ED53A00048A115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C8872224ED53A00048A115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18C8872824ED53A10048A115 /* JHRadarAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JHRadarAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C8872C24ED53A10048A115 /* JHRadarAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHRadarAnimationTests.m; sourceTree = "<group>"; };
+		18C8872E24ED53A10048A115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C8870A24ED539C0048A115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C8872524ED53A10048A115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18640A0324EE6F7D002A1055 /* JHRadarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				18640A0024EE6F76002A1055 /* JHRadarAnimation.h */,
+				18640A0124EE6F76002A1055 /* JHRadarAnimation.m */,
+				18640A0424EE6F96002A1055 /* UIView+JHRadarAnimation.h */,
+				18640A0524EE6F96002A1055 /* UIView+JHRadarAnimation.m */,
+			);
+			path = JHRadarAnimation;
+			sourceTree = "<group>";
+		};
+		18C8870424ED539C0048A115 = {
+			isa = PBXGroup;
+			children = (
+				18C8870F24ED539C0048A115 /* JHRadarAnimation */,
+				18C8872B24ED53A10048A115 /* JHRadarAnimationTests */,
+				18C8870E24ED539C0048A115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18C8870E24ED539C0048A115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C8870D24ED539C0048A115 /* JHRadarAnimation.app */,
+				18C8872824ED53A10048A115 /* JHRadarAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C8870F24ED539C0048A115 /* JHRadarAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				18640A0324EE6F7D002A1055 /* JHRadarAnimation */,
+				18C8871024ED539C0048A115 /* AppDelegate.h */,
+				18C8871124ED539C0048A115 /* AppDelegate.m */,
+				18C8871624ED539C0048A115 /* ViewController.h */,
+				18C8871724ED539C0048A115 /* ViewController.m */,
+				18C8871924ED539C0048A115 /* Main.storyboard */,
+				18C8871C24ED53A00048A115 /* Assets.xcassets */,
+				18C8871E24ED53A00048A115 /* LaunchScreen.storyboard */,
+				18C8872124ED53A00048A115 /* Info.plist */,
+				18C8872224ED53A00048A115 /* main.m */,
+			);
+			path = JHRadarAnimation;
+			sourceTree = "<group>";
+		};
+		18C8872B24ED53A10048A115 /* JHRadarAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				18C8872C24ED53A10048A115 /* JHRadarAnimationTests.m */,
+				18C8872E24ED53A10048A115 /* Info.plist */,
+			);
+			path = JHRadarAnimationTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C8870C24ED539C0048A115 /* JHRadarAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C8873124ED53A10048A115 /* Build configuration list for PBXNativeTarget "JHRadarAnimation" */;
+			buildPhases = (
+				18C8870924ED539C0048A115 /* Sources */,
+				18C8870A24ED539C0048A115 /* Frameworks */,
+				18C8870B24ED539C0048A115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JHRadarAnimation;
+			productName = JHRadarAnimation;
+			productReference = 18C8870D24ED539C0048A115 /* JHRadarAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18C8872724ED53A10048A115 /* JHRadarAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C8873424ED53A10048A115 /* Build configuration list for PBXNativeTarget "JHRadarAnimationTests" */;
+			buildPhases = (
+				18C8872424ED53A10048A115 /* Sources */,
+				18C8872524ED53A10048A115 /* Frameworks */,
+				18C8872624ED53A10048A115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18C8872A24ED53A10048A115 /* PBXTargetDependency */,
+			);
+			name = JHRadarAnimationTests;
+			productName = JHRadarAnimationTests;
+			productReference = 18C8872824ED53A10048A115 /* JHRadarAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C8870524ED539C0048A115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = HaoCold;
+				TargetAttributes = {
+					18C8870C24ED539C0048A115 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					18C8872724ED53A10048A115 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 18C8870C24ED539C0048A115;
+					};
+				};
+			};
+			buildConfigurationList = 18C8870824ED539C0048A115 /* Build configuration list for PBXProject "JHRadarAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C8870424ED539C0048A115;
+			productRefGroup = 18C8870E24ED539C0048A115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C8870C24ED539C0048A115 /* JHRadarAnimation */,
+				18C8872724ED53A10048A115 /* JHRadarAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C8870B24ED539C0048A115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C8872024ED53A00048A115 /* LaunchScreen.storyboard in Resources */,
+				18C8871D24ED53A00048A115 /* Assets.xcassets in Resources */,
+				18C8871B24ED539C0048A115 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C8872624ED53A10048A115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C8870924ED539C0048A115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C8871824ED539C0048A115 /* ViewController.m in Sources */,
+				18640A0224EE6F76002A1055 /* JHRadarAnimation.m in Sources */,
+				18640A0624EE6F96002A1055 /* UIView+JHRadarAnimation.m in Sources */,
+				18C8871224ED539C0048A115 /* AppDelegate.m in Sources */,
+				18C8872324ED53A00048A115 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18C8872424ED53A10048A115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C8872D24ED53A10048A115 /* JHRadarAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18C8872A24ED53A10048A115 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18C8870C24ED539C0048A115 /* JHRadarAnimation */;
+			targetProxy = 18C8872924ED53A10048A115 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18C8871924ED539C0048A115 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C8871A24ED539C0048A115 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C8871E24ED53A00048A115 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C8871F24ED53A00048A115 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C8872F24ED53A10048A115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18C8873024ED53A10048A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C8873224ED53A10048A115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8MERC5W3E;
+				INFOPLIST_FILE = JHRadarAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHRadarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = haocold.develop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C8873324ED53A10048A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D8MERC5W3E;
+				INFOPLIST_FILE = JHRadarAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHRadarAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = haocold.develop;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18C8873524ED53A10048A115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHRadarAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHRadarAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHRadarAnimation.app/JHRadarAnimation";
+			};
+			name = Debug;
+		};
+		18C8873624ED53A10048A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JHRadarAnimationTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haocold.JHRadarAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JHRadarAnimation.app/JHRadarAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C8870824ED539C0048A115 /* Build configuration list for PBXProject "JHRadarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C8872F24ED53A10048A115 /* Debug */,
+				18C8873024ED53A10048A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C8873124ED53A10048A115 /* Build configuration list for PBXNativeTarget "JHRadarAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C8873224ED53A10048A115 /* Debug */,
+				18C8873324ED53A10048A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C8873424ED53A10048A115 /* Build configuration list for PBXNativeTarget "JHRadarAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C8873524ED53A10048A115 /* Debug */,
+				18C8873624ED53A10048A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18C8870524ED539C0048A115 /* Project object */;
+}
