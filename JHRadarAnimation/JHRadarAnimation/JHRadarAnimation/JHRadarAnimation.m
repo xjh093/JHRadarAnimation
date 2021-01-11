@@ -76,6 +76,12 @@
     }
     
     _replayer.speed = 1;
+ 
+    //
+    if (_view.superview) {
+        [_view.superview.layer addSublayer:_replayer];
+        [_view.superview.layer insertSublayer:_replayer below:_view.layer];
+    }
 }
 
 - (void)setupAnimation
@@ -129,6 +135,7 @@
 - (void)stopAnimation
 {
     _replayer.speed = 0;
+    [_replayer removeFromSuperlayer];
 }
 
 - (void)reset
@@ -137,7 +144,7 @@
     [_replayer removeFromSuperlayer];
     _replayer = nil;
     
-    [self setup];
+    [self setupAll];
 }
 
 - (void)setZoomRatio:(CGFloat)zoomRatio{
