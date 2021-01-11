@@ -23,7 +23,7 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.frame = CGRectMake(0, 0, 60, 60);
     imageView.image = [UIImage imageNamed:@"ring"];
-    imageView.backgroundColor = [UIColor lightGrayColor];
+    //imageView.backgroundColor = [UIColor lightGrayColor];
     imageView.center = self.view.center;
     [self.view addSubview:imageView];
     _imageView = imageView;
